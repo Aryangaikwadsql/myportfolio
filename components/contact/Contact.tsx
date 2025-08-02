@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
             publicKey
           });
 
-          let errorMessage = "I didn't receive your message 😢. ";
+          let errorMessage = "I didn&apos;t receive your message 😢. ";
           
           if (error instanceof Error) {
             console.error("EmailJS detailed error:", {

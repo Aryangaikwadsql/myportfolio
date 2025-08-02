@@ -14,7 +14,7 @@ const Footer = () => {
 
 			<div className="flex flex-col items-center">
 				<h1 className="heading lg:max-w-[45vw]">
-					Let's work together to build something amazing
+					Let&apos;s work together to build something amazing
 				</h1>
 				<p className="text-white-200 md:mt-10 my-5 text-center">
 					Feel free to reach out if you're looking for a developer, have a question, or just want to connect.

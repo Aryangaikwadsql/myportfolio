@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
 	{
 		id: 1,
-		title: "I'm Aryan Gaikwad, a passionate Full Stack Developer",
+		title: "I&apos;m Aryan Gaikwad, a passionate Full Stack Developer",
 		description: "",
 		className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[70vh] xl:min-h-[60vh]",
 		imgClassName: "w-full h-full",
@@ -94,8 +94,8 @@ export const projects = [
 export const workExperience = [
 	{
 		id: 1,
-		title: "Student Coordinator – Training & Placement Office",
-		desc: "Assisted in coordinating campus recruitment drives and student–company interactions. Helped organize workshops and placement-focused events, ensuring smooth execution. Acted as a point of contact to resolve student queries and ensure smooth operations.",
+		title: "Student Coordinator &ndash; Training & Placement Office",
+		desc: "Assisted in coordinating campus recruitment drives and student&ndash;company interactions. Helped organize workshops and placement-focused events, ensuring smooth execution. Acted as a point of contact to resolve student queries and ensure smooth operations.",
 		className: "md:col-span-2",
 		thumbnail: "/exp1.svg",
 	},
