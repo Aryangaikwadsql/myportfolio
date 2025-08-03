@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import Image from 'next/image';
 import emailjs from '@emailjs/browser';
 
 import useAlert from '@/hooks/useAlert';
@@ -75,7 +76,7 @@ const Contact: React.FC = () => {
             publicKey
           });
 
-          let errorMessage = "I didn&apos;t receive your message 😢. ";
+          let errorMessage = "I didn't receive your message 😢. ";
           
           if (error instanceof Error) {
             console.error("EmailJS detailed error:", {
@@ -167,7 +168,7 @@ const Contact: React.FC = () => {
             <button className="field-btn" type="submit" disabled={loading}>
               {loading ? 'Sending...' : 'Send Message'}
 
-              <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
+        <Image src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" width={24} height={24} />
             </button>
           </form>
         </div>
